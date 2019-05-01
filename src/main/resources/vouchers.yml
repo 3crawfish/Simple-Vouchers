@@ -37,29 +37,29 @@ Vouchers:
     Commands:
       Give-Permission:
          Command: 'chgrp add %username% godfather'
-  Survivalist: ## 2nd Top Rank
-    Item: 'paper 1 name:&a&lSurvivalist_Voucher lore:&7&oRight-Click_to_receive_the_Survivalist_rank!'
-    Message: '%prefix% &7You''ve achieved the Survivalist rank!'
+   Boss: ## 2nd Top Rank
+    Item: 'paper 1 name:&a&lBoss_Voucher lore:&7&oRight-Click_to_receive_the_Boss_rank!'
+    Message: '%prefix% &7You''ve achieved the Boss rank!'
     Commands:
       Give-Permission:
-        Command: 'chgrp add %username% survivalist'
-  Harbinger: ## 3rd Top Rank
-    Item: 'paper 1 name:&a&lHarbinger_Voucher lore:&7&oRight-Click_to_receive_the_Harbinger_rank!'
-    Message: '%prefix% &7You''ve achieved the Harbinger rank!'
+        Command: 'chgrp add %username% boss'
+  Underboss: ## 3rd Top Rank
+    Item: 'paper 1 name:&a&lUnderboss_Voucher lore:&7&oRight-Click_to_receive_the_Underboss_rank!'
+    Message: '%prefix% &7You''ve achieved the Underboss rank!'
     Commands:
       Give-Permission:
         Command: 'chgrp add %username% harbinger'
-  Explorer: ## 4th Top Rank
-    Item: 'paper 1 name:&a&lExplorer_Voucher lore:&7&oRight-Click_to_receive_the_Explorer_rank!'
-    Message: '%prefix% &7You''ve achieved the Explorer rank!'
+  Hitman: ## 4th Top Rank
+    Item: 'paper 1 name:&a&lHitman_Voucher lore:&7&oRight-Click_to_receive_the_Hitman_rank!'
+    Message: '%prefix% &7You''ve achieved the Hitman rank!'
     Commands:
       Give-Permission:
         Command: 'chgrp add %username% explorer'
-  Pioneer: ## 5th Top Rank
-    Item: 'paper 1 name:&a&lPioneer_Voucher lore:&7&oRight-Click_to_receive_the_Pioneer_rank!'
-    Message: '%prefix% &7You''ve achieved the Pioneer rank!'
+  Crook: ## 5th Top Rank
+    Item: 'paper 1 name:&a&lCrook_Voucher lore:&7&oRight-Click_to_receive_the_Crook_rank!'
+    Message: '%prefix% &7You''ve achieved the Crook rank!'
     Commands:
       Give-Permission:
-        Command: 'chgrp add %username% pioneer'
+        Command: 'chgrp add %username% crook'
   
   
