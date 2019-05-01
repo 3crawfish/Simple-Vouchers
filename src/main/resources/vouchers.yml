@@ -31,3 +31,35 @@ Vouchers:
         Command: 'pex user %username% remove essentials.heal'
         Message: '%prefix% You can no longer heal yourself.'
         Delay: 60
+  Godfather: ## Top Rank
+    Item: 'paper 1 name:&6&lGodfather_Voucher lore:7&oRight-Click_to_recieve_the_Godfather_rank!'
+    Message: '%prefix% &7You''ve achieved the Godfather rank!'
+    Commands:
+      Give-Permission:
+         Command: 'chgrp add %username% godfather'
+  Survivalist: ## 2nd Top Rank
+    Item: 'paper 1 name:&a&lSurvivalist_Voucher lore:&7&oRight-Click_to_receive_the_Survivalist_rank!'
+    Message: '%prefix% &7You''ve achieved the Survivalist rank!'
+    Commands:
+      Give-Permission:
+        Command: 'chgrp add %username% survivalist'
+  Harbinger: ## 3rd Top Rank
+    Item: 'paper 1 name:&a&lHarbinger_Voucher lore:&7&oRight-Click_to_receive_the_Harbinger_rank!'
+    Message: '%prefix% &7You''ve achieved the Harbinger rank!'
+    Commands:
+      Give-Permission:
+        Command: 'chgrp add %username% harbinger'
+  Explorer: ## 4th Top Rank
+    Item: 'paper 1 name:&a&lExplorer_Voucher lore:&7&oRight-Click_to_receive_the_Explorer_rank!'
+    Message: '%prefix% &7You''ve achieved the Explorer rank!'
+    Commands:
+      Give-Permission:
+        Command: 'chgrp add %username% explorer'
+  Pioneer: ## 5th Top Rank
+    Item: 'paper 1 name:&a&lPioneer_Voucher lore:&7&oRight-Click_to_receive_the_Pioneer_rank!'
+    Message: '%prefix% &7You''ve achieved the Pioneer rank!'
+    Commands:
+      Give-Permission:
+        Command: 'chgrp add %username% pioneer'
+  
+  
