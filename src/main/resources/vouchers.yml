@@ -31,7 +31,7 @@ Vouchers:
         Command: 'pex user %username% remove essentials.heal'
         Message: '%prefix% You can no longer heal yourself.'
         Delay: 60
-          Money:
+  Money:
     Item: 'paper 1 name:&6&lMoney_Voucher lore:&7&oRight-Click_to_receive_100_credits!'
     Message: '%prefix% &7You''ve received 100 credits!'
     Sound: 'note_pling'
@@ -44,7 +44,7 @@ Vouchers:
     Commands:
       Give-Rank:
          Command: 'chgrp add %username% godfather'
-   Boss: ## 2nd Top Rank
+  Boss: ## 2nd Top Rank
     Item: 'paper 1 name:&a&lBoss_Voucher lore:&7&oRight-Click_to_receive_the_Boss_rank!'
     Message: '%prefix% &7You''ve achieved the Boss rank!'
     Commands:
@@ -61,7 +61,7 @@ Vouchers:
     Message: '%prefix% &7You''ve achieved the Hitman rank!'
     Commands:
       Give-Rank:
-        Command: 'chgrp add %username% hitman'
+        Command: 'chgrp add %username% hitman'        
   Crook: ## 5th Top Rank
     Item: 'paper 1 name:&a&lCrook_Voucher lore:&7&oRight-Click_to_receive_the_Crook_rank!'
     Message: '%prefix% &7You''ve achieved the Crook rank!'
