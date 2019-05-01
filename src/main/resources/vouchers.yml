@@ -48,7 +48,7 @@ Vouchers:
     Message: '%prefix% &7You''ve achieved the Underboss rank!'
     Commands:
       Give-Permission:
-        Command: 'chgrp add %username% harbinger'
+        Command: 'chgrp add %username% underboss'
   Hitman: ## 4th Top Rank
     Item: 'paper 1 name:&a&lHitman_Voucher lore:&7&oRight-Click_to_receive_the_Hitman_rank!'
     Message: '%prefix% &7You''ve achieved the Hitman rank!'
