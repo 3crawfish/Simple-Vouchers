@@ -54,7 +54,7 @@ Vouchers:
     Message: '%prefix% &7You''ve achieved the Hitman rank!'
     Commands:
       Give-Permission:
-        Command: 'chgrp add %username% explorer'
+        Command: 'chgrp add %username% hitman'
   Crook: ## 5th Top Rank
     Item: 'paper 1 name:&a&lCrook_Voucher lore:&7&oRight-Click_to_receive_the_Crook_rank!'
     Message: '%prefix% &7You''ve achieved the Crook rank!'
