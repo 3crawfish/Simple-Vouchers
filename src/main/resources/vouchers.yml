@@ -35,31 +35,31 @@ Vouchers:
     Item: 'paper 1 name:&6&lGodfather_Voucher lore:7&oRight-Click_to_recieve_the_Godfather_rank!'
     Message: '%prefix% &7You''ve achieved the Godfather rank!'
     Commands:
-      Give-Permission:
+      Give-Rank:
          Command: 'chgrp add %username% godfather'
    Boss: ## 2nd Top Rank
     Item: 'paper 1 name:&a&lBoss_Voucher lore:&7&oRight-Click_to_receive_the_Boss_rank!'
     Message: '%prefix% &7You''ve achieved the Boss rank!'
     Commands:
-      Give-Permission:
+      Give-Rank:
         Command: 'chgrp add %username% boss'
   Underboss: ## 3rd Top Rank
     Item: 'paper 1 name:&a&lUnderboss_Voucher lore:&7&oRight-Click_to_receive_the_Underboss_rank!'
     Message: '%prefix% &7You''ve achieved the Underboss rank!'
     Commands:
-      Give-Permission:
+      Give-Rank:
         Command: 'chgrp add %username% underboss'
   Hitman: ## 4th Top Rank
     Item: 'paper 1 name:&a&lHitman_Voucher lore:&7&oRight-Click_to_receive_the_Hitman_rank!'
     Message: '%prefix% &7You''ve achieved the Hitman rank!'
     Commands:
-      Give-Permission:
+      Give-Rank:
         Command: 'chgrp add %username% hitman'
   Crook: ## 5th Top Rank
     Item: 'paper 1 name:&a&lCrook_Voucher lore:&7&oRight-Click_to_receive_the_Crook_rank!'
     Message: '%prefix% &7You''ve achieved the Crook rank!'
     Commands:
-      Give-Permission:
+      Give-Rank:
         Command: 'chgrp add %username% crook'
   
   
