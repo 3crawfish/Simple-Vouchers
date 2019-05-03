@@ -29,12 +29,11 @@ Vouchers:
         Message: '%prefix% You can no longer heal yourself.'
         Delay: 60
   Money:
-    Item: 'paper 1 name:&6&lMoney_Voucher lore:&7&oRight-Click_to_receive_100_credits!'
-    Message: '%prefix% &7You''ve received 100 credits!'
-    Sound: 'note_pling'
+    Item: 'paper 1 name:&6&lMoney_Voucher lore:&7&oRight-Click_to_receive_$2000!'
+    Message: '%prefix% &7You''ve received $2000!'
     Commands:
       Give:
-        Command: 'eco give %username% 100'
+        Command: 'eco give %username% 2000'
   Godfather: ## Top Rank
     Item: 'paper 1 name:&6&lGodfather_Voucher lore:&7&oRight-Click_to_recieve_the_Godfather_rank!'
     Message: '%prefix% &7You''ve achieved the Godfather rank!'
