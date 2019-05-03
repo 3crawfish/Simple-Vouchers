@@ -36,7 +36,7 @@ Vouchers:
       Give:
         Command: 'eco give %username% 100'
   Godfather: ## Top Rank
-    Item: 'paper 1 name:&6&lGodfather_Voucher lore:7&oRight-Click_to_recieve_the_Godfather_rank!'
+    Item: 'paper 1 name:&6&lGodfather_Voucher lore:&7&oRight-Click_to_recieve_the_Godfather_rank!'
     Message: '%prefix% &7You''ve achieved the Godfather rank!'
     Commands:
       Give-Rank:
