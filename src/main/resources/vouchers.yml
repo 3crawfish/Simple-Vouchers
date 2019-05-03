@@ -6,14 +6,11 @@ Vouchers:
       Give:
         Command: 'give %username% diamond 3'
   Gold:
-    Item: 'paper 1 name:&6&l5x_Gold_Note lore:&7&oRight-Click_to_receive_3_Gold_Ingots!/n&7&oYou_will_also_receive_2_Gold_Ingots_in_10_seconds.'
-    Message: '%prefix% &7You''ve received 3 Gold Ingots!'
+    Item: 'paper 1 name:&6&l5x_Gold_Note lore:&7&oRight-Click_to_receive_5_Gold_Ingots!'
+    Message: '%prefix% &7You''ve received 5 Gold Ingots!'
     Commands:
       Give:
-        Command: 'give %username% gold_ingot 3'
-      Delayed:
-        Command: 'give %username% gold_ingot 2'
-        Delay: 10
+        Command: 'give %username% gold_ingot 5'
   XP:
     Item: 'exp_bottle 1 name:&6&l100_Experience lore:&7&oRight-Click_to_receive_100_EXP!'
     Message: '%prefix% &7You''ve received 100 EXP!'
@@ -43,30 +40,24 @@ Vouchers:
     Message: '%prefix% &7You''ve achieved the Godfather rank!'
     Commands:
       Give-Rank:
-         Command: 'chgrp add %username% godfather'
+         Command: 'chgrp add %username% donator4'
   Boss: ## 2nd Top Rank
     Item: 'paper 1 name:&a&lBoss_Voucher lore:&7&oRight-Click_to_receive_the_Boss_rank!'
     Message: '%prefix% &7You''ve achieved the Boss rank!'
     Commands:
       Give-Rank:
-        Command: 'chgrp add %username% boss'
-  Underboss: ## 3rd Top Rank
-    Item: 'paper 1 name:&a&lUnderboss_Voucher lore:&7&oRight-Click_to_receive_the_Underboss_rank!'
-    Message: '%prefix% &7You''ve achieved the Underboss rank!'
-    Commands:
-      Give-Rank:
-        Command: 'chgrp add %username% underboss'
-  Hitman: ## 4th Top Rank
+        Command: 'chgrp add %username% donator3'
+  Hitman: ## 3rd Top Rank
     Item: 'paper 1 name:&a&lHitman_Voucher lore:&7&oRight-Click_to_receive_the_Hitman_rank!'
     Message: '%prefix% &7You''ve achieved the Hitman rank!'
     Commands:
       Give-Rank:
-        Command: 'chgrp add %username% hitman'        
-  Crook: ## 5th Top Rank
+        Command: 'chgrp add %username% donator2'
+  Crook: ## 4th Top Rank
     Item: 'paper 1 name:&a&lCrook_Voucher lore:&7&oRight-Click_to_receive_the_Crook_rank!'
     Message: '%prefix% &7You''ve achieved the Crook rank!'
     Commands:
       Give-Rank:
-        Command: 'chgrp add %username% crook'
+        Command: 'chgrp add %username% donator1'
   
   
