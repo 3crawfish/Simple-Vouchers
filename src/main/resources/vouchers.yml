@@ -58,5 +58,11 @@ Vouchers:
     Commands:
       Give-Rank:
         Command: 'chgrp add %username% donator1'
+  ClaimVoucher:
+    Item: 'paper 1 name:&a&lClaim_Voucher lore:&7&oRight-Click_to_receive_200_claim_blocks!'
+    Message: '%prefix% &7You''ve gotten 200 more claim blocks!'
+    Commands:
+      Give-Rank:
+        Command: 'AdjustBonusClaimBlocks %username% 200'
   
   
