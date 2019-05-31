@@ -58,5 +58,9 @@ Vouchers:
     Commands:
       Give-Rank:
         Command: 'chgrp add %username% donator1'
-  
-  
+   Flight: ## Flight Perk
+    Item: 'paper 1 name:&a&lFlight_Perk lore:&7&oRight-Click_to_gain_permissions_to_use-/fly'
+    Message: '%prefix% &7You can now use /fly!'
+    Commands:
+      Give-Rank:
+        Command: 'chgrp add %username% pfly' 
